@@ -1,0 +1,37 @@
+.responsiveNav {
+    margin-top: 1.5rem;
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    background-color: white;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.responsiveNav ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.responsiveNav li {
+    width: 100%;
+    margin: 0.5rem 0;
+    margin-left: 2rem;
+}
+
+.responsiveNav a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+    transition: 0.1s ease-in-out;
+}
+
+.responsiveNav a:hover {
+    color:red;
+}
+
+.removeResponsiveNav {
+    display: none;
+}
