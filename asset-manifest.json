@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tourest/static/css/main.61cf9e33.css",
-    "main.js": "/tourest/static/js/main.55cafe38.js",
+    "main.js": "/tourest/static/js/main.f2daa05e.js",
     "static/media/search.png": "/tourest/static/media/search.63ba997d4f9524e5b038.png",
     "static/media/logo.png": "/tourest/static/media/logo.c4c344918fd6e3a64c8c.png",
     "index.html": "/tourest/index.html",
     "main.61cf9e33.css.map": "/tourest/static/css/main.61cf9e33.css.map",
-    "main.55cafe38.js.map": "/tourest/static/js/main.55cafe38.js.map"
+    "main.f2daa05e.js.map": "/tourest/static/js/main.f2daa05e.js.map"
   },
   "entrypoints": [
     "static/css/main.61cf9e33.css",
-    "static/js/main.55cafe38.js"
+    "static/js/main.f2daa05e.js"
   ]
 }
