@@ -1,8 +1,10 @@
-import React from 'react'
+import React,{ useState}  from 'react'
 import homeImage from '../assets/search.png'
 import './Search.css'
+import DatePicker from "react-datepicker"
 
 export default function Search() {
+    const [startDate, setStartDate] = useState(new Date());
     return (
         <div id='search' className='search-main'>
             <div>
@@ -29,9 +31,9 @@ export default function Search() {
                         <label htmlFor=''>Check-in</label>
                         <input type='date' placeholder='dd/mm/yyyy'></input>
                     </div>
-                    <div className='container-search'>
-                        <label htmlFor=''> Check-out</label>
-                        <input type='date' placeholder='dd/mm/yyyy'></input>
+                    <div className='DateRangePicker'>
+                        <label htmlFor='' className='block'> Check-out</label>
+                        <DatePicker type='date' selected={startDate} onChange={date => setStartDate(date)}></DatePicker>
                     </div>
                     <button className='search-btn'>Explore Now</button>
                 </div>

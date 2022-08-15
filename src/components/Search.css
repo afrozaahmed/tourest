@@ -54,7 +54,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 0 1.5rem;
-    -webkit-appearance:none
 }
 
 label {
@@ -67,12 +66,10 @@ input {
     border: none;
     text-align: center;
     color: black;
-    -webkit-appearance:none
 }
 
 input[type='date'] {
     padding-left: 3rem;
-    -webkit-appearance:none
 }
 
 input::placeholder {
@@ -133,4 +130,8 @@ input:focus::placeholder {
         padding: 1rem;
         font-size: 1rem;
     }
+    .DateRangePicker{
+        border: 1px solid #152b93;
+        display: block;
+        }
 }
