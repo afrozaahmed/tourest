@@ -70,6 +70,7 @@ input {
 
 input[type='date'] {
     padding-left: 3rem;
+    -webkit-appearance:none
 }
 
 input::placeholder {
