@@ -2,6 +2,7 @@ import React,{ useState}  from 'react'
 import homeImage from '../assets/search.png'
 import './Search.css'
 import DatePicker from "react-datepicker"
+import 'react-datepicker/dist/react-datepicker.css'
 
 export default function Search() {
     const [startDate, setStartDate] = useState(new Date());
