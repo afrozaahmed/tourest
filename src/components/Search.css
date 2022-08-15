@@ -132,6 +132,8 @@ input:focus::placeholder {
     }
     .DateRangePicker{
         border: 1px solid #152b93;
-        display: block;
+        display: none;
+        padding: 0.2em 0.2em 0;
+        padding-left: 1rem;
         }
 }

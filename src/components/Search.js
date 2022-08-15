@@ -31,9 +31,9 @@ export default function Search() {
                         <label htmlFor=''>Check-in</label>
                         <input type='date' placeholder='dd/mm/yyyy'></input>
                     </div>
-                    <div className='DateRangePicker'>
-                        <label htmlFor='' className='block'> Check-out</label>
-                        <DatePicker type='date' selected={startDate} onChange={date => setStartDate(date)}></DatePicker>
+                    <div className='container-search'>
+                        <label htmlFor=''> Check-out</label>
+                        <DatePicker selected={startDate} onChange={date => setStartDate(date)}></DatePicker>
                     </div>
                     <button className='search-btn'>Explore Now</button>
                 </div>
