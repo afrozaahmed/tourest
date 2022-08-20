@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/tourest/static/css/main.034c0f4a.css",
-    "main.js": "/tourest/static/js/main.ab9e34e6.js",
+    "main.css": "/tourest/static/css/main.92c40cd3.css",
+    "main.js": "/tourest/static/js/main.c29ed4b4.js",
+    "static/media/maldivesVideo.mp4": "/tourest/static/media/maldivesVideo.4b1c6a6fb879322d6587.mp4",
     "static/media/search.png": "/tourest/static/media/search.63ba997d4f9524e5b038.png",
     "static/media/logo.png": "/tourest/static/media/logo.c4c344918fd6e3a64c8c.png",
     "static/media/customer.png": "/tourest/static/media/customer.4698a883c4cdbeee4c89.png",
     "static/media/payment.png": "/tourest/static/media/payment.8f4c84fd84999c23d06e.png",
     "static/media/wallet.png": "/tourest/static/media/wallet.97501c891661eff7e532.png",
     "index.html": "/tourest/index.html",
-    "main.034c0f4a.css.map": "/tourest/static/css/main.034c0f4a.css.map",
-    "main.ab9e34e6.js.map": "/tourest/static/js/main.ab9e34e6.js.map"
+    "main.92c40cd3.css.map": "/tourest/static/css/main.92c40cd3.css.map",
+    "main.c29ed4b4.js.map": "/tourest/static/js/main.c29ed4b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.034c0f4a.css",
-    "static/js/main.ab9e34e6.js"
+    "static/css/main.92c40cd3.css",
+    "static/js/main.c29ed4b4.js"
   ]
 }

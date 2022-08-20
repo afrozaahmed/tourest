@@ -25,9 +25,6 @@
 
 input[type="date"] {
     min-width: 96%;
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
-    min-height: 1.2em; 
 }
 
 .title {
