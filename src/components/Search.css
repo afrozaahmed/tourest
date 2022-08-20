@@ -99,6 +99,29 @@ input:focus::placeholder {
     background-color: #02338a;
 }
 
+.video-class {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 @media screen and (min-width: 280px) and (max-width: 980px) {
     .search-main {
         height: 22rem;
