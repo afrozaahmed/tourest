@@ -9,7 +9,7 @@ export default function Navbar() {
     const [navbarState, setnavbarState] = useState(false)
     return (
         <>
-            <div className='navbar'>
+            <div className='navbar' id='navbar'>
                 <div className='brand'>
                     <div className='container'>
                         <img className='img' src={logo} alt='' />
@@ -22,12 +22,10 @@ export default function Navbar() {
                     </div>
                 </div>
                 <ul>
-                    <li><a href='#home'>HOME</a></li>
-                    <li><a href='#About'>ABOUT</a></li>
-                    <li><a href='#Airlines'>TOP AIRLINES</a></li>
-                    <li><a href='#Destinations'>TOP DESTINATIONS</a></li>
-                    <li><a href='#Theme'>TRAVEL BY THEME</a></li>
-                    <li><a href='#Type'>TRAVEL BY TYPE</a></li>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#About'>About Us</a></li>
+                    <li><a href='#Airlines'>Privacy Policy</a></li>
+                    <li><a href='#Destinations'>Contact Us</a></li>
                 </ul>
                 <button className='connect'>Connect</button>
             </div>
@@ -35,12 +33,10 @@ export default function Navbar() {
             className={navbarState ? 'responsiveNav' : 'removeResponsiveNav'} 
             style={navbarState ? {top:'50px'}:{top:'-400px'}}>
                 <ul>
-                    <li><a href='#home'>HOME</a></li>
-                    <li><a href='#About' >ABOUT</a></li>
-                    <li><a href='#Airlines'>TOP AIRLINES</a></li>
-                    <li><a href='#Destinations' >TOP DESTINATIONS</a></li>
-                    <li><a href='#Theme'>TRAVEL BY THEME</a></li>
-                    <li><a href='#Type'>TRAVEL BY TYPE</a></li>
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#About' >About Us</a></li>
+                    <li><a href='#Airlines'>Privacy Policy</a></li>
+                    <li><a href='#Destinations' >Contact Us</a></li>
                 </ul>
             </div>
     </>
